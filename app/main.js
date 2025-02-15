@@ -27,3 +27,5 @@ function exibirOsLivrosNaTela(listaDeLivros) {
         </div>`
     })
 }
+
+getBuscarLivrosDaAPI();
