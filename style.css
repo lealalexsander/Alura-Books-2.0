@@ -167,10 +167,11 @@ body {
 
   .nav {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     height: 30px;
-    margin: 4rem 0;
+    margin: 1rem 0;
     gap: 1em;
   }
 
@@ -182,7 +183,7 @@ body {
   .livros {
     flex-direction: column;
     align-items: center;
-    
+    margin-top: 10em;
   }
 
   .livro {
@@ -211,7 +212,6 @@ body {
 
   .livro__imagens {
     width: 200px;
-    margin-top: 12em;
   }
 
   .rodape {
@@ -223,4 +223,5 @@ body {
     font-size: 14px;
     text-align: center;
   }
+
 }
