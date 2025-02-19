@@ -10,7 +10,15 @@
   --text-tag-color: #9c9c9c;
 }
 
-body {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Poppins';
 }
 
